@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px){
+    h1, h2, h3 {
+        text-align: center;
+    }
+    #input input[type='text'] {
+        width: 100vw!important;
+    }
+    button {
+        display: block;
+    }
+}
